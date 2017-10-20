@@ -15,10 +15,10 @@ Exemplo de uso:
 
 Dado o seguinte código html:
 
-//<div>
-  //  <h1>Hello World</h1>
-    // <span>Playing with javascript and DOM</span>
-//</div>
+<div>
+   <h1>Hello World</h1>
+     <span>Playing with javascript and DOM</span>
+</div>
 
 A exeução do objeto deverá ser capaz de reproduzir o seguinte:
 
@@ -27,4 +27,4 @@ A exeução do objeto deverá ser capaz de reproduzir o seguinte:
 (new SeletorDOM()).xpath("//div/span").text() => "Playing with javascript and DOM"
 
 
-Exercicio elaborado por: Henrique Vianna
+**Exercicio elaborado por: Henrique Vianna**
