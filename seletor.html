@@ -1,0 +1,33 @@
+<div>
+    <h1>Hello World</h1>
+    <span>Playing with javascript and DOM</span>
+</div>
+<script>
+function SeletorDOM(){ // cria objeto
+        
+        var text; 
+
+        this.find = function(seletor){             
+            var s1 = document.querySelector(seletor);
+            if (s1) {
+                text = s1.innerText;
+            }
+            return this;
+        }
+
+        this.text = function(){// metodo publico      
+            return text;
+        }
+
+        this.xpath = function (path){
+            p = document.evaluate(path,document).iterateNext();
+            if(p){
+                text = p.innerText;
+            }
+            return this;
+        }
+    }
+
+    console.log((new SeletorDOM()).find("h1").text());
+    console.log((new SeletorDOM()).xpath("//div/span").text()); //"Playing with javascript and DOM"
+</script>
