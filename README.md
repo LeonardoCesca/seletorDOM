@@ -16,7 +16,9 @@ Exemplo de uso:
 Dado o seguinte código html:
 
 <div>
+    
    <h1>Hello World</h1>
+    
      <span>Playing with javascript and DOM</span>
 </div>
 
