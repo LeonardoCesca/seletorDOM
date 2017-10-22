@@ -1,8 +1,9 @@
 # seletorDOM
+
 Exercicio para compreender um pouco sobre orientação a objetos em JavaScript
 
 
-Criar seletor DOM (Document Object Model), similar ao JQuery. Este seletor deve ser um objeto, cujo o escopo é um elemento DOM da página e possui os seguintes métodos:
+**Criar seletor DOM (Document Object Model), similar ao JQuery**. Este seletor deve ser um objeto, cujo o escopo é um elemento DOM da página e possui os seguintes métodos:
 - find(seletor css): Retorna um objeto do tipo seletor DOM que busca o objeto pelo seletor css
 - text() : Retorna o texto do elemento
 - xpath(path) : Retorna um objeto do tipo seletor DOM que busca o objeto pelo xpath
